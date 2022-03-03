@@ -1,0 +1,38 @@
+/* 탭메뉴 꾸미기 */
+.tab {
+  overflow: hidden;
+}
+.tabnav{ 
+  overflow: hidden;
+  
+}
+.tabnav li{
+  float: left;
+  display: block;
+}
+
+.tabnav li a{ 
+  display: block;
+  position: relative;
+  border-right: 2px solid #aa89bd;
+  z-index: 2;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.k{
+  border-right: none;
+}
+
+/* 탭메뉴 클릭했을 때 변화 꾸미기 */
+.tabnav li a:hover{
+ color: #ccc;
+}
+
+/* 탭컨텐츠 꾸미기 */
+.tabcontent{
+  width: 1320px;
+  margin: 40px auto;
+  position: relative;
+}
